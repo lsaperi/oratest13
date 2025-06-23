@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "",
+    "name": "EMPLEADOS",
+    "type": "TABLE"
+  },
+  {
+    "schema": "",
+    "name": "VISTA_EMPLEADOS_ACTIVOS",
+    "type": "TABLE"
+  }
+]

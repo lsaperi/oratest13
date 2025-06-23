@@ -1,0 +1,48 @@
+{
+  "General": [
+    {
+      "REWRITE_ENABLED": "N",
+      "EVALUATION_EDITION": null,
+      "ON_QUERY_COMPUTATION": "N",
+      "BUILD_MODE": "IMMEDIATE",
+      "FAST_REFRESHABLE": "NO",
+      "UNUSABLE_BEGINNING": null,
+      "MVIEW_NAME": "VISTA_EMPLEADOS_ACTIVOS",
+      "DEFAULT_COLLATION": "USING_NLS_COMP",
+      "REFRESH_METHOD": "COMPLETE",
+      "SEGMENT_CREATED": "NO",
+      "UNKNOWN_TRUSTED_FD": "N",
+      "TYPE": "MATERIALIZED_VIEW",
+      "REFRESH_MODE": "DEMAND",
+      "REWRITE_CAPABILITY": "GENERAL",
+      "IOT_TYPE": null,
+      "REFRESH_METHOD_KEY": null,
+      "QUERY": "SELECT id, nombre\nFROM oratest13_dev.empleados\nWHERE activo = 'S'",
+      "UNUSABLE_BEFORE": null,
+      "USE_NO_INDEX": "N"
+    },
+    {
+      "REWRITE_ENABLED": "N",
+      "EVALUATION_EDITION": null,
+      "ON_QUERY_COMPUTATION": "N",
+      "BUILD_MODE": "IMMEDIATE",
+      "FAST_REFRESHABLE": "NO",
+      "UNUSABLE_BEGINNING": null,
+      "MVIEW_NAME": "VISTA_EMPLEADOS_ACTIVOS",
+      "DEFAULT_COLLATION": "USING_NLS_COMP",
+      "REFRESH_METHOD": "COMPLETE",
+      "SEGMENT_CREATED": "NO",
+      "UNKNOWN_TRUSTED_FD": "N",
+      "TYPE": "MATERIALIZED_VIEW",
+      "REFRESH_MODE": "DEMAND",
+      "REWRITE_CAPABILITY": "GENERAL",
+      "IOT_TYPE": null,
+      "REFRESH_METHOD_KEY": null,
+      "QUERY": "SELECT id, nombre\nFROM oratest13_dev.empleados\nWHERE activo = 'S'",
+      "UNUSABLE_BEFORE": null,
+      "USE_NO_INDEX": "N"
+    }
+  ],
+  "Table_Constraints": [],
+  "Table_Indexes": []
+}
